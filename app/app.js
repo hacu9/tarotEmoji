@@ -2,8 +2,9 @@ import Vue from "nativescript-vue";
 
 import Home from "./components/Home";
 
-new Vue({
+// Vue.config.silent = false;
 
+new Vue({
     template: `
         <Frame>
             <Home />

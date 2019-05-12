@@ -10,7 +10,7 @@ overrideModalViewMethod();
 
 Vue.registerElement("ModalStack", () => ModalStack);
 Vue.use(VueWindowedModal);
-// Vue.config.silent = false;
+Vue.config.silent = false;
 
 new Vue({
     template: `
